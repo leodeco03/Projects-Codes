@@ -13,7 +13,6 @@ Languages:
 - Python
 - Matlab
 - Dynare
-- Excel
 
 Author: Leonardo Decorte
 MSc Applied Economics and Markets – University of Bologna
