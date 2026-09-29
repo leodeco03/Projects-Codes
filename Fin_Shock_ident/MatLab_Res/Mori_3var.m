@@ -123,7 +123,7 @@ banner(sprintf('STEP 3 - ROBUST BAYESIAN BVAR(p=%d)  [Petrova 2022]', p));
 opt_flat              = struct();
 opt_flat.K            = N_DRAWS;
 opt_flat.hor          = IRF_HOR;
-opt_flat.robust_bayes = 1;          % 1 = 4th-moment correction, 2 = also 3rd
+opt_flat.robust_bayes = 0;          % 1 = 4th-moment correction, 2 = also 3rd
 if ~isnan(K_SHRINK_POST), opt_flat.K_shrinkage = K_SHRINK_POST; end
 
 bvar_obj = bvar_(Y, p, opt_flat);
