@@ -1,6 +1,6 @@
 %% NKmodel_lin2.mod
 %
-% DESCRIPTION: dynare.mod file to solve and simulate the  Final project of
+% DESCRIPTION: dynare.mod file to solve and simulate the Final project of
 % the course: "International Money and Finance"
 %
 % Suasday Chea and Leonardo Decorte
